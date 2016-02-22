@@ -1,0 +1,20 @@
+@font-face{
+	font-family: "Braxton";
+	src: url('../fonts/Braxton.otf');
+}
+
+
+#logo{
+	margin-top: 4px;
+	margin-left: 2px;
+}
+
+#title-logo{
+	font-family: Braxton;
+	font-size: 22px;
+	float:right;
+	margin-top: 9px;
+	margin-left: 2px;
+	color: #840107;
+
+}
