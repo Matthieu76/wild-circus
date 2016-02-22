@@ -3,7 +3,17 @@
 	src: url('../fonts/Braxton.otf');
 }
 
+@font-face{
+	font-family: "Blenda";
+	src: url('../fonts/Blenda.otf');
+}
 
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../img/background01.jpg) no-repeat center fixed;
+	background-size: cover;
+}
 
 #logo{
 	margin-top: 4px;
@@ -18,6 +28,29 @@
 	margin-left: 2px;
 	color: #840107;
 
+}
+
+.title{
+	position: absolute;
+	top:0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align:center;
+	height: 50px;
+	color: white;
+	cursor: pointer;
+}
+
+#title{
+	font-family: Braxton;
+	font-size: 10em;
+}
+
+#subtitle{
+	font-family: Blenda;
+	font-size: 5em;
 }
 
 .navbar-right{
