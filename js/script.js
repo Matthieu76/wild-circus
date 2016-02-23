@@ -4,7 +4,7 @@ $(document).ready(function(){
 			$("#background01").attr('id','background02');
 			$(".title").hide();
 			$("#background02").fadeIn('slow');
-			$("#content").fadeIn(2000);
+			$(".content").fadeIn(2000);
 		});
 	});
 });

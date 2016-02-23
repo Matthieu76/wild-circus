@@ -22,6 +22,18 @@ position: fixed;
 	background: url(../img/background02.jpg) no-repeat center fixed;
 }
 
+#background03{
+	background: url(../img/background03.jpg) no-repeat center / cover;
+}
+
+#background04{
+	background: url(../img/background04.jpg) no-repeat center / cover;
+}
+
+#background05{
+	background: url(../img/background05.jpg) no-repeat center / cover;
+}
+
 #logo{
 	margin-top: 4px;
 	margin-left: 2px;
@@ -60,7 +72,7 @@ position: fixed;
 	font-size: 5em;
 }
 
-#content{
+.content{
 	display: none;
 	position: absolute;
 	top: 0;
@@ -72,6 +84,10 @@ position: fixed;
 	width: 50%;
 	background-color: rgba(255,255,255,0.6);
 	text-align: center;
+}
+
+#content{
+	display: block;
 }
 
 .title-show{
@@ -104,6 +120,10 @@ li > a:hover{
     background-color: #7F0009;
     color: white;
     text-decoration: none;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+	 background-color: #7F0009;
 }
 
 .navbar-right{
