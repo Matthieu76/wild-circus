@@ -88,6 +88,8 @@ position: fixed;
 
 #content{
 	display: block;
+	height: 250px;
+	width: 30%;
 }
 
 .title-show{
