@@ -154,6 +154,7 @@ li > a:hover{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	color: white;
 }
 
 .list-inline > li > a{
@@ -162,4 +163,21 @@ li > a:hover{
 
 .list-inline{
 	margin: 8px 0;
+}
+
+#form{
+	display: block;
+	height: 75%;
+	border-radius: 5px;
+	color:#7f0009;
+}
+
+.btn-primary{
+	margin-top: 10px;
+
+}
+
+form > input,textarea{
+	max-width: 600px;
+	margin:0px auto;
 }

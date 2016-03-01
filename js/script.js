@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$("#background01").fadeOut(2000, function(){
 			$("#background01").attr('id','background02');
 			$("li:first").removeClass("active");
-			$("ul li:nth-child(2)").addClass("active");
+			$("#shows").addClass("active");
 			$(".title").hide();
 			$("#background02").fadeIn('slow');
 			$(".content").fadeIn(2000);
