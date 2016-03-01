@@ -34,6 +34,15 @@ position: fixed;
 	background: url(../img/background05.jpg) no-repeat center / cover;
 }
 
+#background06{
+	background: url(../img/background06.jpg) no-repeat center / cover;
+}
+
+#background07{
+	background: url(../img/background07.jpg) no-repeat center / cover;
+}
+
+
 #logo{
 	margin-top: 4px;
 	margin-left: 2px;
@@ -57,7 +66,7 @@ position: fixed;
 	bottom: 0;
 	margin: auto;
 	text-align:center;
-	height: 50px;
+	height: 60px;
 	color: white;
 	cursor: pointer;
 }
@@ -137,4 +146,20 @@ li > a:hover{
 	background-color: #7F0009;
 	color: white;
 
+}
+
+.footer{
+	background-color: #7f0009;
+	opacity: 0.6;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.list-inline > li > a{
+	color: white;
+}
+
+.list-inline{
+	margin: 8px 0;
 }
