@@ -42,6 +42,14 @@ position: fixed;
 	background: url(../img/background07.jpg) no-repeat center / cover;
 }
 
+#background08{
+	background: url(../img/background08.jpg) no-repeat center / cover;
+}
+
+#background10{
+	background-color: #1c1c1c;
+}
+
 
 #logo{
 	margin-top: 4px;
@@ -103,10 +111,16 @@ position: fixed;
 
 .title-show{
 	color: #7F0009;
+
 }
 
 #title-show{
 	font-family: Blenda;
+	
+}
+
+#content-show{
+	font-size: 15px;
 }
 
 ul{
@@ -151,7 +165,7 @@ li > a:hover{
 .footer{
 	background-color: #7f0009;
 	opacity: 0.6;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 	color: white;
@@ -181,3 +195,12 @@ form > input,textarea{
 	max-width: 600px;
 	margin:0px auto;
 }
+
+#gallery{
+	padding-top: 40px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+	max-height: 170px;
+	max-width: 300px;
+} 
