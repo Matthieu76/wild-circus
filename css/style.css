@@ -19,7 +19,7 @@ position: fixed;
 }
 
 #background02{
-	background: url(../img/background02.jpg) no-repeat center fixed;
+	background: url(../img/background02.jpg) no-repeat center / cover;
 }
 
 #background03{
